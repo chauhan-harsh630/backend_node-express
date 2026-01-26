@@ -1,7 +1,7 @@
 {
   "name": "lesson-0",
   "version": "1.0.0",
-  "types": "module",
+  "type": "module",
   "description": "start to learn backend for AI+FULL STUCK PROJECT\"",
   "license": "ISC",
   "author": "harsh chauhan",
