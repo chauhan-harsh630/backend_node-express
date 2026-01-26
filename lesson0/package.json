@@ -1,0 +1,16 @@
+{
+  "name": "lesson-0",
+  "version": "1.0.0",
+  "types": "module",
+  "description": "start to learn backend for AI+FULL STUCK PROJECT\"",
+  "license": "ISC",
+  "author": "harsh chauhan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
