@@ -1,0 +1,16 @@
+{
+  "name": "express_app",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Harsh Chauhan",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev":"node --watch server"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
