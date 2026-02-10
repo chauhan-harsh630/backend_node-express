@@ -140,17 +140,6 @@ db.students.deleteOne({ name: "Harsh" })
 
 ---
 
-## Next Steps
-
-**Day-9 Goals:**
-- Integrate MongoDB with Node.js using Mongoose ODM
-- Connect Express.js application to MongoDB
-- Implement schema validation with Mongoose
-- Build REST API with MongoDB backend
-- Understand connection pooling and error handling
-
----
-
 ## Resources
 
 - [MongoDB Documentation](https://www.mongodb.com/docs/)
