@@ -1,0 +1,9 @@
+GET http://localhost:4000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQm9iIFNtaXRoIiwiaWF0IjoxNzcxMTUwMjMwLCJleHAiOjE3NzExNTExMzB9.VXoprd2fotXNO4yQqY_xKjCVU74FtNBh96o-G41ZNBo
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "Bob Smith"
+}
