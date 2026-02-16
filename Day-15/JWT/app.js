@@ -61,7 +61,7 @@ app.get('/', (req, res) => {
 
 app.get('/posts', authentication, (req, res) => {
     console.log("Decoded User:", req.user);
-    res.json(posts.filter(post => post.author === req.user.name));;
+    res.json(posts.filter(post => post.author === req.user.name));
 });
 
 app.post('/login', (req, res) => {
