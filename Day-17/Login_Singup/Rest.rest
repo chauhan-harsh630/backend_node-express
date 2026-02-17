@@ -1,0 +1,15 @@
+
+GET http://localhost:3000/api/users/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5OTQwZDY4YWI1N2VmYzQzN2YyNDExMCIsImlhdCI6MTc3MTMxMjQ4NCwiZXhwIjoxNzcxMzk4ODg0fQ.F-Rwv14Ebul9ebUCg-FrXVfMeFN9ARD5QQi4tmXRO_8
+
+###
+
+POST  http://localhost:3000/api/users/login
+Content-Type: application/json
+
+
+{
+  "email": "tushar@example.com",
+  "password": "tushar123#"
+}
+
