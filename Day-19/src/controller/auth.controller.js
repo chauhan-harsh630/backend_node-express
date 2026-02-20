@@ -151,7 +151,6 @@ export const refresh = async (req, res) => {
                     user: user._id,
                     token: newRefreshToken,
                 });
-
                 res
                     .cookie("refreshtoken", newRefreshToken, {
                         httpOnly: true,
@@ -164,7 +163,6 @@ export const refresh = async (req, res) => {
                     });
             }
         );
-
     } catch (error) {
         console.error("Refresh Error:", error);
         res.status(500).json({
