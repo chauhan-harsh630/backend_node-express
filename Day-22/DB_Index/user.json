@@ -1,0 +1,140 @@
+{
+  name: "Aarav Sharma",
+  email: "aarav.sharma@gmail.com",
+  age: 24,
+  role: "admin",
+  createdAt: new Date()
+},
+{
+  name: "Riya Verma",
+  email: "riya.verma@gmail.com",
+  age: 21,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Kabir Singh",
+  email: "kabir.singh@gmail.com",
+  age: 28,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Ananya Gupta",
+  email: "ananya.gupta@gmail.com",
+  age: 23,
+  role: "admin",
+  createdAt: new Date()
+},
+{
+  name: "Vivaan Mehta",
+  email: "vivaan.mehta@gmail.com",
+  age: 26,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Diya Kapoor",
+  email: "diya.kapoor@gmail.com",
+  age: 22,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Arjun Nair",
+  email: "arjun.nair@gmail.com",
+  age: 29,
+  role: "admin",
+  createdAt: new Date()
+},
+{
+  name: "Meera Iyer",
+  email: "meera.iyer@gmail.com",
+  age: 20,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Aditya Rao",
+  email: "aditya.rao@gmail.com",
+  age: 27,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Ishita Jain",
+  email: "ishita.jain@gmail.com",
+  age: 25,
+  role: "admin",
+  createdAt: new Date()
+},
+{
+  name: "Rahul Malhotra",
+  email: "rahul.malhotra@gmail.com",
+  age: 30,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Sneha Patil",
+  email: "sneha.patil@gmail.com",
+  age: 23,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Yash Thakur",
+  email: "yash.thakur@gmail.com",
+  age: 24,
+  role: "admin",
+  createdAt: new Date()
+},
+{
+  name: "Priya Reddy",
+  email: "priya.reddy@gmail.com",
+  age: 22,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Karan Joshi",
+  email: "karan.joshi@gmail.com",
+  age: 28,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Nisha Bansal",
+  email: "nisha.bansal@gmail.com",
+  age: 21,
+  role: "admin",
+  createdAt: new Date()
+},
+{
+  name: "Rohan Desai",
+  email: "rohan.desai@gmail.com",
+  age: 26,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Pooja Chawla",
+  email: "pooja.chawla@gmail.com",
+  age: 23,
+  role: "user",
+  createdAt: new Date()
+},
+{
+  name: "Manav Arora",
+  email: "manav.arora@gmail.com",
+  age: 27,
+  role: "admin",
+  createdAt: new Date()
+},
+{
+  name: "Simran Kaur",
+  email: "simran.kaur@gmail.com",
+  age: 25,
+  role: "user",
+  createdAt: new Date()
+}
