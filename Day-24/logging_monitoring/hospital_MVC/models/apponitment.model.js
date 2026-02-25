@@ -1,1 +1,40 @@
-{"success":true,"count":2,"data":[{"status":"booked","_id":"699d4f5a2f369a871a6b6db8","patient":{"_id":"699d466cbb69c10f9cb8549f","name":"Riya Sharma","email":"riya@gmail.com","phone":9123456780},"appointment":{"status":"booked"},"createdAt":"2026-02-24T07:12:26.332Z","updatedAt":"2026-02-24T07:12:26.332Z","__v":0},{"status":"booked","_id":"699d50462f369a871a6b6dbf","patient":{"_id":"699d463dbb69c10f9cb8549d","name":"Harsh Chauhan","email":"harsh@gmail.com","phone":9876543210},"appointment":{"status":"booked"},"createdAt":"2026-02-24T07:16:22.921Z","updatedAt":"2026-02-24T07:16:22.921Z","__v":0}]}
+import mongoose from "mongoose";
+
+const appointmentSchema = new mongoose.Schema(
+  {
+    patient: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: [true, "Patient ID is required"]
+    },
+
+    doctor: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Doctor",
+      required: [true, "Doctor ID is required"]
+    },
+
+    appointmentDate: {
+      type: Date,
+      required: [true, "Appointment date is required"]
+    },
+
+    status: {
+      type: String,
+      enum: ["booked", "completed", "cancelled"],
+      default: "booked"
+    }
+  },
+  {
+    timestamps: true
+  }
+);
+
+/* ===============================
+   Index for Preventing Duplicate Booking
+================================= */
+appointmentSchema.index({ doctor: 1, appointmentDate: 1 });
+
+const Appointment = mongoose.model("Appointment", appointmentSchema);
+
+export default Appointment;
