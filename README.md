@@ -5,7 +5,7 @@ I am building real-world backend concepts and projects while learning scalable b
 
 ---
 
-# 📚 What I’m Know Learn
+# 📚 What I’m Learning
 
 - Node.js Fundamentals
 - Express.js Framework
